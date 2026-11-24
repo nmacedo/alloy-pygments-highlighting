@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+alloy_pygments/__init__.py
+alloy_pygments/lexer.py
+alloy_pygments.egg-info/PKG-INFO
+alloy_pygments.egg-info/SOURCES.txt
+alloy_pygments.egg-info/dependency_links.txt
+alloy_pygments.egg-info/entry_points.txt
+alloy_pygments.egg-info/requires.txt
+alloy_pygments.egg-info/top_level.txt

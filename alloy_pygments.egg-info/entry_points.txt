@@ -1,0 +1,2 @@
+[pygments.lexers]
+alloy6 = alloy_pygments.lexer:AlloyLexer

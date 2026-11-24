@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "alloy-pygments"
+version = "0.1.0"
+description = "Pygments lexer for Alloy 6"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.9"
+dependencies = ["Pygments>=2.17"]
+keywords = ["alloy", "syntax-highlighting", "pygments"]
+
+[project.entry-points."pygments.lexers"]
+alloy6 = "alloy_pygments.lexer:AlloyLexer"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["alloy_pygments*"]
+namespaces = false

@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "alloy-pygments"
-version = "1.0.0"
+version = "1.1.0"
 description = "Pygments lexer for Alloy 6"
 readme = "README.md"
 license = "MIT"
